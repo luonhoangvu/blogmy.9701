@@ -1,0 +1,595 @@
+        /* @media (max-width: 1022px) {
+    #brand {
+        padding-left: 150px;
+    }
+    ul#main-menu {
+        right: 300px;
+    }
+} */
+        
+        @media screen and (max-width: 1024px) {
+            #brand {
+                padding-left: 80px;
+            }
+            ul#main-menu {
+                right: 150px;
+                font-size: 15px;
+            }
+            #wp-header #feedback {
+                bottom: 0px;
+                font-size: 10px;
+                right: 8px;
+            }
+            #logo {
+                width: 100px;
+            }
+            #wp-header {
+                height: 120px;
+            }
+            /* end wp-header */
+            #wp-content #home {
+                padding-top: 25px;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            #brand {
+                padding-left: 25px;
+            }
+            ul#main-menu {
+                right: 120px;
+                font-size: 13px;
+                font-size: 12px;
+            }
+            #wp-header #feedback {
+                bottom: -6px;
+                font-size: 8px;
+                right: 2px;
+            }
+            #logo {
+                width: 70px;
+            }
+            #wp-header {
+                height: 110px;
+            }
+            /* end wp-header */
+            #wp-content #home {
+                padding-top: 15px;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            ul#main-menu {
+                display: none;
+            }
+            ul#toggle-menu {
+                text-align: center;
+                display: flow-root;
+                top: 62px;
+                left: 0;
+                width: 100%;
+                padding: 0;
+                display: none;
+                background-color: #f1f1f1;
+            }
+            ul#toggle-menu li.active a {
+                color: #e15f41;
+                border-right: none;
+            }
+            ul#toggle-menu li:hover a {
+                color: #e15f41;
+                border-right: none;
+            }
+            ul#toggle-menu li a {
+                border-right: none;
+                margin: 50px 0px;
+                font-size: 25px;
+            }
+            #wp-header {
+                height: 90px;
+            }
+            #wp-header #feedback {
+                display: block;
+                left: 394px;
+                top: 10px;
+                font-size: 15px;
+            }
+            #wp-header nav #toggle {
+                display: block;
+                position: absolute;
+                top: 45%;
+                left: 47%;
+                cursor: pointer;
+                font-size: 22px;
+                transition: all .3s ease-in-out;
+            }
+            #wp-header nav #toggle.open {
+                transform: rotate(180deg);
+            }
+            #wp-header nav #toggle:hover {
+                color: #e15f41;
+            }
+            /* end header */
+            #wp-content #home {
+                padding-top: 0px;
+            }
+            #wp-content #home #ct-introduce {
+                display: block;
+                padding-top: 0px;
+            }
+            #wp-content #home #ct-introduce #thumb img {
+                width: 100%;
+                height: auto;
+            }
+            #wp-content #home #ct-introduce #post-list #quote #box {
+                max-width: 400px;
+                height: auto;
+                margin-left: 100px;
+                margin-bottom: 20px;
+            }
+            #wp-content #home #ct-introduce #post-list img {
+                width: 100%;
+                height: auto;
+                margin-bottom: 10px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            #wp-content #home #ct-introduce #thumb {
+                flex-basis: 50%;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            /* end */
+            #wp-content #home #ct-newposts {
+                max-width: 100%;
+                height: auto;
+                margin: 0px auto;
+                padding-top: 15px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item .product-thumb a img {
+                width: 100%;
+                height: auto;
+                padding: 8px 0px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item {
+                padding-bottom: 0px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item .product-imformations .product-content {
+                padding-bottom: 18px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item .product-imformations .product-comment {
+                padding-top: 10px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item {
+                display: flow-root;
+            }
+            #wp-content #home #ct-newposts ul#product {
+                display: block;
+                list-style: none;
+                padding: 0;
+                padding: 0px 15px;
+                padding-top: 10px;
+            }
+            #wp-content #home #ct-newposts h1 {
+                display: block;
+                font-size: 30PX;
+                font-weight: 300;
+                margin-bottom: 5px;
+                padding-left: 15px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item .product-imformations {
+                padding-left: 25px;
+                padding-top: 5px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item .product-imformations .product-content h2 {
+                padding-top: 5px;
+                font-weight: 200;
+                font-size: 25px;
+            }
+            #wp-content #home #ct-newposts ul#product .product-item .product-imformations .product-content p {
+                color: #8f8f8f;
+                display: none;
+            }
+            /* end */
+            #wp-content #home #ct-maxim {
+                display: none;
+            }
+            #wp-content #home #ct-maxim-three {
+                display: block;
+                position: relative;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-true .text a {
+                border: 0.5px solid #3d3d3d;
+                padding: 5px 10px;
+                margin: 0px;
+                position: absolute;
+                bottom: -22px;
+                left: 225px;
+                list-style: none;
+                display: block;
+                text-decoration: none;
+                color: #3d3d3d;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-true .text a:hover {
+                border: 0.5px solid #e15f41;
+                color: #e15f41;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-true {
+                padding-left: 15px;
+                padding-right: 15px;
+                height: 400px;
+                background-color: #FDA7DF;
+            }
+            /* end */
+            #wp-content #home #ct-myForever ul#slide-menu li {
+                flex-basis: 50%;
+            }
+            #wp-content #home #ct-myForever {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            #wp-content #home #ct-myForever h1 {
+                font-size: 28px;
+                margin-bottom: 15px;
+            }
+            #wp-content #home #ct-myForever ul#slide-menu li {
+                padding-left: 10px;
+                padding-right: 10px;
+                margin-bottom: 20px;
+            }
+            /* end wp-content */
+            #wp-footer {
+                display: none;
+            }
+            #wp-footer-rps {
+                display: block;
+                background-color: #95afc0;
+                position: absolute;
+                width: 100%;
+            }
+            #wp-footer-rps #license ul#society {
+                display: flex;
+                padding: 0;
+                position: relative;
+                margin: 0;
+            }
+            #wp-footer-rps #license ul#society li {
+                padding: 20px 13px;
+                font-size: 24px;
+                list-style: none;
+            }
+            #wp-footer-rps #license ul#society img {
+                width: 70px;
+                height: auto;
+                position: absolute;
+                right: 10px;
+            }
+            #wp-footer-rps #license #contact h1 {
+                margin: 0;
+                font-size: 22px;
+                font-weight: 200;
+                padding-left: 10px;
+                color: #f1f1f1;
+                transition: all .2s ease;
+            }
+            #wp-footer-rps #license #contact h1:hover {
+                color: #e15f41;
+            }
+            #wp-footer-rps #license #contact span#ask {
+                padding-left: 10px;
+                color: #f1f1f1;
+                transition: all .2s ease-in-out;
+            }
+            #wp-footer-rps #license #contact span#ask:hover {
+                color: #e15f41;
+            }
+            #wp-footer-rps #license #contact .contact-form .page {
+                margin: 0;
+            }
+            #wp-footer-rps #license #contact .contact-form .grateful {
+                font-size: 17px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            }
+            #wp-footer-rps #license #contact .contact-form .grateful input {
+                padding: 6px 43px;
+                background-color: #95afc0;
+                border: 1px solid #f1f1f1;
+                color: #f1f1f1;
+                transition: all .2s ease-in-out;
+            }
+            #wp-footer-rps #license #contact .contact-form .grateful input:hover {
+                border: 1px solid #e15f41;
+                color: #e15f41;
+            }
+            #wp-footer-rps #license #name {
+                padding: 10px;
+                font-size: 22px;
+                font-weight: 200;
+                color: #f1f1f1;
+                transition: all .2s ease-in-out;
+            }
+            #wp-footer-rps #license #name:hover {
+                color: #e15f41;
+            }
+            #wp-footer-rps #license .contact {
+                padding-left: 10px;
+                color: #f1f1f1;
+                transition: all .2s ease-in-out;
+            }
+            #wp-footer-rps #license .contact:hover {
+                color: #e15f41;
+            }
+            #wp-footer-rps #license .contact p {
+                margin: 0;
+            }
+            #wp-footer-rps #license .thank {
+                padding-left: 10px;
+                color: #f1f1f1;
+                padding-bottom: 10px;
+                transition: all .2s ease-in-out;
+            }
+            #wp-footer-rps #license .thank:hover {
+                color: #e15f41;
+            }
+            #wp-footer-rps #license .thank a {
+                color: #5d5d5d;
+                text-decoration: none;
+            }
+            /* end home */
+            #wp-content #blog {
+                max-width: none;
+                padding-right: 10px;
+                padding-left: 10px;
+            }
+            #wp-content #blog #ct-footer ul#menu-article {
+                display: block;
+            }
+            #wp-content #blog #ct-footer ul#menu-article #comment {
+                border-right: none;
+                border-bottom: none;
+                border-left: none;
+            }
+            #wp-content #blog #ct-footer ul#menu-article #comment .quote-title {
+                border-bottom: none;
+                padding-bottom: 0;
+            }
+            #wp-content #blog #ct-footer ul#menu-article #comment .extra-informations-footer .view {
+                margin-left: 15px;
+                margin-right: 15px;
+                color: #8f8f8f;
+                font-size: 12px;
+                padding-bottom: 15px;
+                align-items: center;
+                border-bottom: 1px solid #3d3d3d;
+            }
+            #wp-content #blog #ct-header .openTop span {
+                display: none;
+            }
+            #wp-content #blog #ct-header .openTop h1 {
+                font-size: 35px;
+            }
+            #wp-content #blog #ct-header .log-in a {
+                display: none;
+            }
+            #wp-content #blog #ct-footer ul#menu-article li #login-rps {
+                display: block;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                padding-left: 10px;
+                padding-right: 10px;
+                background-color: #e15f41;
+                align-items: center;
+                width: 100%;
+                height: 50px;
+            }
+            #wp-content #blog #ct-footer ul#menu-article li #login-rps .bl-rps p {
+                margin: 0;
+                color: #f1f1f1;
+            }
+            #wp-content #blog #ct-footer ul#menu-article li #login-rps .user-rps a {
+                padding: 0px 13px;
+                font-size: 22px;
+                color: #f1f1f1;
+            }
+            #wp-content #blog #ct-footer ul#menu-article li:last-of-type {
+                padding-bottom: 0;
+            }
+            #wp-content #blog #ct-header {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            #wp-content #blog #ct-footer ul#menu-article {
+                margin-bottom: 0;
+            }
+            #wp-content #blog #ct-footer ul#menu-article li {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            /* end blog */
+            #wp-content #all {
+                padding-top: 50px;
+                max-width: 960px;
+                margin: 0px auto;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            /* end all */
+            #wp-content #about {
+                display: block;
+                max-height: 100%;
+                width: 100%;
+                padding-top: 10px;
+                z-index: 1;
+                background-color: #f7f1e3;
+            }
+            #wp-content #about #images img {
+                max-width: 300px;
+                height: auto;
+                position: absolute;
+                top: 10px;
+                left: 150px;
+            }
+            #wp-content #about #ct-content nav {
+                display: block;
+                max-width: 455px;
+                height: auto;
+                color: #8f8f8f;
+                position: absolute;
+                top: 320px;
+                left: 50px;
+                text-align: inherit;
+            }
+            /* end about */
+            #wp-content #resources {
+                display: block;
+            }
+            #wp-content #resources #ct-content {
+                display: none;
+            }
+            .dashboard {
+                padding: 16px 16px 14px;
+                background-color: rgb(235, 139, 217);
+                position: absolute;
+                top: 50px;
+                /* position: fixed; */
+                width: 100%;
+                max-width: 480px;
+                border-bottom: 1px solid #ebebeb;
+            }
+            #wp-content #resources #music nav {
+                padding: 0px 10px;
+                background: #f1f7d3;
+            }
+            #wp-content #resources #music nav h1 {
+                text-align: center;
+                font-size: 20px;
+                font-weight: 200;
+                padding-top: 10px;
+            }
+            #wp-content #resources #music nav h2 {
+                font-size: 16px;
+                font-weight: 200;
+                color: #8f8f8f;
+            }
+            #wp-content #resources #music nav p {
+                font-size: 14px;
+                margin-bottom: 0;
+                padding-bottom: 10px;
+                text-align: inherit;
+                color: #8f8f8f;
+            }
+        }
+        
+        @media screen and (max-width: 400px) {
+            #wp-header #feedback {
+                display: block;
+                left: 194px;
+                top: 10px;
+                font-size: 13px;
+            }
+            #wp-header nav #toggle {
+                left: 40%;
+            }
+            #wp-content #home #ct-introduce #post-list #quote #box {
+                margin-left: 0;
+                padding-left: 10px;
+                padding-right: 10px
+            }
+            #wp-content #home #ct-introduce #post-list #quote #all-posts a p {
+                right: 96px;
+            }
+            /* header */
+            #wp-content #home #ct-maxim-three #ct-maxim-one .text .maxim-text {
+                position: absolute;
+                top: 33px;
+                left: 66px;
+                right: 100px;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-one .text {
+                height: 247px;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-one .text .maxim-text h2 {
+                font-weight: 200;
+                color: #3d3d3d;
+                font-size: 31px;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-true .images img {
+                width: 250px;
+                height: auto;
+                position: relative;
+                top: 40px;
+                left: 30px;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-true .text h2 {
+                position: absolute;
+                bottom: 23px;
+                right: 118px;
+                font-size: 21px;
+                font-weight: 200;
+                color: #3d3d3d;
+            }
+            #wp-content #home #ct-maxim-three #ct-maxim-true .text a {
+                border: 0.5px solid #3d3d3d;
+                padding: 5px 10px;
+                margin: 0px;
+                position: absolute;
+                bottom: -22px;
+                left: 106px;
+                list-style: none;
+                display: block;
+                text-decoration: none;
+                color: #3d3d3d;
+            }
+            #wp-content #home #ct-registrations-post .send-to .page #submit {
+                background-color: #fcc8dd;
+                color: #8f8f8f;
+                width: 190px;
+                height: 50px;
+                border: 1px solid #3d3d3d;
+                margin-left: 62px;
+                transform: all 0.3s ease-in-out;
+            }
+            .linktr {
+                order: -1;
+                padding-top: 15px;
+                padding-right: 18px;
+                text-align: center;
+            }
+            /* end home */
+            #wp-content #about #images img {
+                max-width: 240px;
+                height: auto;
+                position: absolute;
+                top: 10px;
+                left: 57px;
+            }
+            #wp-content #about #ct-content nav {
+                display: block;
+                max-width: 455px;
+                height: auto;
+                color: #8f8f8f;
+                position: absolute;
+                top: 254px;
+                left: 10px;
+                text-align: -webkit-auto;
+            }
+            #wp-content #about #ct-content nav h1 {
+                display: block;
+                font-weight: 300;
+                font-size: 29px;
+                color: #3d3d3d;
+                margin-bottom: 5px;
+            }
+            #wp-content #about #ct-content nav h2 {
+                display: block;
+                font-size: 19px;
+                font-weight: 200;
+                margin-bottom: 10px;
+            }
+            #wp-content #about #ct-content nav p {
+                display: block;
+                margin: 12px 0px;
+            }
+        }
